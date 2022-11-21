@@ -11,14 +11,14 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
+- Light Cyan: #CEE3E9
+- Neon Green: #52FFA8
 
 ### Neutral
 
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%)
+- Grayish Blue: #4e5d73
+- Dark Grayish Blue: #323a49
+- Dark Blue: #1f2632
 
 ## Typography
 
