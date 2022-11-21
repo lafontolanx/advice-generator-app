@@ -2,22 +2,17 @@ import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
     body {
-        background: var(--gray-100);
-    }
-    body::-webkit-scrollbar {
-        width: 12px;               
-    }
-    body::-webkit-scrollbar-track {
-        background: var(--gray-100);
-        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    }
-    body::-webkit-scrollbar-thumb {
-        background-color: var(--gray-50); 
-        border-radius: 20px;       
+        background: var(--dark-grayish-blue);
     }
     :root {
         --white: #fff;
         --black: #000;
+        --gray: #323a49;
+        --light-cyan: #CEE3E9;
+        --green: #52FFA8;
+        --grayish-blue: #4e5d73;
+        --dark-grayish-blue: #323a49;
+        --dark-blue: #1f2632;
     }
     * {
         margin: 0;
