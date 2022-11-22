@@ -8,7 +8,7 @@ export const Container = styled.div`
     align-items: center;
 `
 
-export const Box = styled.div`
+export const Quote = styled.div`
     background-color: var(--grayish-blue);
     height: 200px;
     width: 270px; 
@@ -16,4 +16,5 @@ export const Box = styled.div`
 
 export const Title = styled.p`
     color: var(--white);
+    font-size: 28px;
 `

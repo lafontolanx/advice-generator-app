@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Title, Box } from "./style";
+import { Container, Title, Quote } from "./style";
 
 interface CardProps {
     title: string;
@@ -9,9 +9,9 @@ export const Card = (props: CardProps) => {
     
     return(
         <Container>
-            <Box>
+            <Quote>
                 <Title>{props.title}</Title>
-            </Box>
+            </Quote>
         </Container>
     )
 }
