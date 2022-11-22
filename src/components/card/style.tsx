@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
-
-export const Quote = styled.div`
     background-color: var(--grayish-blue); 
     border-radius: 10px;
-    padding: 5rem 3rem;
+    height: 200px;
+    width: 600px;
+    padding: 0 1rem 0 1rem;
 
     display: flex;
     flex-direction: column;
+    gap: 20px;
+`
+
+export const Quote = styled.div`
+    padding-top: 20px;
+
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 `
 
 export const Advice = styled.p`
@@ -26,5 +27,6 @@ export const Advice = styled.p`
 
 export const Title = styled.p`
     color: var(--white);
-    font-size: 28px;
+    font-size: 24px;
+    text-align: center;
 `

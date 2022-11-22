@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Card } from './components/card/card'
 import { GlobalStyle } from './styles/GlobalStyle'
 import api from "./services/api";
+import { Button } from "./components/button/button";
 
 function App() {
   const [post, setPost] = useState({
@@ -20,12 +21,10 @@ function App() {
       });
   }, []);
 
-  console.log(post.slip.advice);
-  
-
   return (
     <>
-      <Card title={post.slip.advice} advice={post.slip.id} />
+      <Card title={post.slip.advice} advice={post.slip.id}/>
+      <Button />
       <GlobalStyle />
     </>
   )

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Title, Quote, Advice } from "./style";
+import { Title, Quote, Advice, Container } from "./style";
 //import Divider from '../../assets/images/pattern-divider-desktop.svg';
 //<img src={Divider} alt="divider" />
 
@@ -14,8 +14,9 @@ export const Card = (props: CardProps) => {
         <Container>
             <Quote>
                 <Advice>ADVICE #{props.advice}</Advice>
-                <Title>{props.title}</Title>
             </Quote>
+            <Title>{props.title}</Title>        
         </Container>
+
     )
 }
