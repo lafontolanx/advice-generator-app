@@ -9,9 +9,19 @@ export const Container = styled.div`
 `
 
 export const Quote = styled.div`
-    background-color: var(--grayish-blue);
-    height: 200px;
-    width: 270px; 
+    background-color: var(--grayish-blue); 
+    border-radius: 10px;
+    padding: 5rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
+export const Advice = styled.p`
+    font-size: 15px;
+    color: var(--green);
 `
 
 export const Title = styled.p`
