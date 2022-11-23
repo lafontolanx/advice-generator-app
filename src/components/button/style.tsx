@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const ButtonChange = styled.button`
     position: absolute;
 
-    top: calc(50% + 95px);
+    top: calc(50% + 120px);
 
     background-color: var(--green);
     height: 60px;

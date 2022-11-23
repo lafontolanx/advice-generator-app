@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Card } from './components/card/card'
 import { GlobalStyle } from './styles/GlobalStyle'
 import api from "./services/api";
@@ -12,19 +12,21 @@ function App() {
     }
   });
 
-  useEffect(() => {
+  function handleNewAdvice() {
     api
       .get("/advice")
       .then((response) => setPost(response.data))
       .catch((err) => {
         console.error("ops! ocorreu um erro" + err);
       });
-  }, []);
+  }
 
   return (
     <>
       <Card title={post.slip.advice} advice={post.slip.id}/>
-      <Button />
+      <Button 
+        onClick={handleNewAdvice}
+      />
       <GlobalStyle />
     </>
   )
