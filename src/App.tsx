@@ -7,7 +7,7 @@ import { Button } from "./components/button/button";
 function App() {
   const [post, setPost] = useState({
     slip: {
-      advice: '',
+      advice: 'Click the button to get a random advice',
       id: 0
     }
   });

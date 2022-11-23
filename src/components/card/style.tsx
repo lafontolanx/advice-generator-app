@@ -25,6 +25,7 @@ export const Advice = styled.p`
     color: var(--green);
     letter-spacing: 2px;
     margin-top: 40px;
+    text-transform: uppercase;
 `
 
 export const Title = styled.p`
