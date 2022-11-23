@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
     body {
-        background: var(--dark-grayish-blue);
+        background: var(--dark-blue);
         height: 100vh;
 
         display: flex;

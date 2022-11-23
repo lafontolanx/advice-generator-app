@@ -8,10 +8,21 @@ export const Container = styled.div`
 export const ButtonChange = styled.button`
     position: absolute;
 
-    top: calc(50% + 75px);
+    top: calc(50% + 95px);
 
     background-color: var(--green);
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    :hover {
+        box-shadow: 0 0 15px var(--green);
+    }
 `
